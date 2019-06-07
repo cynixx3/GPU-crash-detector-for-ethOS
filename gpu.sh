@@ -4,8 +4,8 @@
 #
 # Version 1.3.1 
 #
-# INSTALL:  `source <(curl -s http://thecynix.com/gpu-install.txt)`
-# UPDATE:   `wget http://thecynix.com/gpu.txt -O /home/ethos/gpu.sh`
+# INSTALL:  `source <(curl -s https://raw.githubusercontent.com/cynixx3/GPU-crash-detector-for-ethOS/master/gpu-install.txt)`
+# UPDATE:   `wget https://raw.githubusercontent.com/cynixx3/GPU-crash-detector-for-ethOS/master/gpu-install.txt -O /home/ethos/gpu.sh`
 # VIEW LOG: `tail /home/ethos/crash.log`
 # RUN MANUALLY: `./gpu.sh` (note: it will run every 5 minutes after install.)
 # 
