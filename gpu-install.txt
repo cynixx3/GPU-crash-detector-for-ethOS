@@ -3,8 +3,8 @@
 # WARNING this will overwrite your `sudo crontab -e` entries
 #
 # run this in the miner terminal with:
-# `source <(curl -s http://thecynix.com/gpu-install.txt)`
-wget http://thecynix.com/gpu.txt -O /home/ethos/gpu.sh
+# `source <(curl -s https://raw.githubusercontent.com/cynixx3/GPU-crash-detector-for-ethOS/master/gpu-install.txt)`
+wget https://raw.githubusercontent.com/cynixx3/GPU-crash-detector-for-ethOS/master/gpu.sh -O /home/ethos/gpu.sh
 chmod u+x /home/ethos/gpu.sh
 crontab <<< "# Edit this file to introduce tasks to be run by cron.
 # 
