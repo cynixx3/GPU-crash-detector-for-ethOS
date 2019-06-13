@@ -22,7 +22,8 @@ Defaults:
 ```logsize="100"   # Set the number of lines to keep in the log
 loggood="false" # Set "true" if you want an hourly log of success
 crashspeed="0"  # Set the per gpu hash rate that will trigger a crash condition
-minuptime="21600" # Set the number in seconds the script should wait after start before rebooting```
+minuptime="21600" # Set the number in seconds the script should wait after start before rebooting
+```
 
 21600 seconds is 6 hours. This is set high to prevent poorly built rigs from having too high of a fire risk. If your rig is built really well and you know the reason for the gpu crashes, you could lower this though its not recommended. 
 
